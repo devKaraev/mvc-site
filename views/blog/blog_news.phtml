@@ -1,0 +1,11 @@
+<?php include ROOT.'/views/layouts/header_blog.phtml'?>
+        <?php foreach ($newsId as $newsById) { ?>
+        <div class="blocknews_1">
+            <h2><?php echo $newsById['name'] ?></h2>
+            <div class="date"><?php echo $newsById['date'] ?></div>
+            <p class="blocknews_text"><?php echo $newsById['content'] ?></p>
+            <div class="blocknews_back"><a href="/blog"><p>Назад в блог</p></a></div>
+        </div>
+        <?php } ?>
+    </body>
+</html>

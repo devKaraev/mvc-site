@@ -1,0 +1,25 @@
+<?php include ROOT.'/views/layouts/header_blog.phtml'?>
+        <?php foreach ($news as $newsItem) { ?>
+        <div class="blockbl_novost">
+            <div class="blockbl_3">
+                <div class="blockbl_3img">
+                    <img src="../../template/img/blog.jpg">
+                </div>
+            </div>
+            <div class="blockbl_3text">
+                <div class="blockbl_3textzag">
+                    <p><?php echo $newsItem['name']; ?></p>
+                </div>
+                <div class="blockbl_3shortcont">
+                    <p><?php echo $newsItem['short_content'] ?></p>
+                </div>
+                <div class="blockbl_read">
+                    <p><a href="blog/news/<?php echo $newsItem['id']?>">Читать далее</a></p>
+                </div>
+            </div>
+        </div>
+        <?php } ?>
+
+        </div>
+    </body>
+</html>

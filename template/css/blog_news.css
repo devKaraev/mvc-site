@@ -1,0 +1,29 @@
+.blocknews_1
+{
+    margin: 80px 60px 0 90px;
+    font-family: Arial, sans-serif;
+    width: 780px;
+    padding: 0 15px 0 15px;
+}
+
+.date
+{
+    color: #c0c0c0;
+}
+
+.blocknews_text
+{
+    color: #606060;
+}
+
+.blocknews_1 p
+{
+    font: 11pt/23pt Arial, sans-serif;
+}
+
+.blocknews_back
+{
+    margin: 40px 0 50px 0px;
+    float: right;
+    color: #8fb488;
+}
